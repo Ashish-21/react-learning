@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/*React Form CSS*/
+
+.form {
+  border: 1px solid black;
+  background-color: azure;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.field-container {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.name-container {
+  display: flex;
+  gap: 12px;
+}
+
+.textfield {
+  padding: 12px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.textarea {
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.tnc-container {
+  display: flex;
+  gap: 4px;
+  p {
+    margin: 0px;
+  }
+}
+
+.selectfield {
+  padding: 12px;
+  border-radius: 12px;
+  width: 100%;
+  background-color: white;
+}
+
+button {
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.gender-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.radio-container {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
