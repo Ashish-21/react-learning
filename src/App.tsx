@@ -1,4 +1,5 @@
 import "./App.css";
+import CenterDiv from "./components/CenterDiv";
 import FileExplorer from "./components/FileExplorer";
 import fileExplorerData from "./data/fileExplorerData";
 
