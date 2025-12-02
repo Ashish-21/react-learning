@@ -2,6 +2,7 @@ import "./App.css";
 import CenterDiv from "./components/CenterDiv";
 import Dashboard from "./components/Dashboard/Dashboard";
 import FileExplorer from "./components/FileExplorer";
+import TablePagination from "./components/TablePagination/TablePagination";
 import fileExplorerData from "./data/fileExplorerData";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 				height: "100%",
 			}}
 		>
-			<Dashboard />
+			<TablePagination />
 		</div>
 	);
 }
